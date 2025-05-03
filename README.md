@@ -8,7 +8,6 @@ A Java-based RESTful API for product management using JAX-RS (Jersey). This API 
 
 - [API Endpoints](#api-endpoints)
 - [Request/Response Examples](#requestresponse-examples)
-- [Error Handling](#error-handling)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
 - [Deployment](#deployment)
@@ -97,16 +96,6 @@ GET /api/product-manager/get-all-products
     }
 ]
 ```
-
----
-
-## Error Handling
-
-The API returns standard HTTP status codes:
-
-- **400 Bad Request**: Invalid input or duplicate ID
-- **404 Not Found**: Product not found
-- **500 Internal Server Error**: Server-side issues
 
 ---
 
